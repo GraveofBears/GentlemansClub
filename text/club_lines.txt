@@ -1,0 +1,1152 @@
+# Gentleman's Club: everything the girls and the barkeep say.
+# Edit freely. Sections are [barkeep], [common] (shared by all girls) and [girl:Name] (one per girl).
+# Inside a section, "key:" starts a list and every "- line" adds one. Lines are picked at random.
+#   $PLAYER = your character's name   $NAME = the girl speaking   $GIRL = another girl in the club
+# Keep lines on one line; don't use braces, "::" or double square brackets.
+
+[barkeep]
+greet:
+- Welcome to the club, $PLAYER. Wipe your boots, you're tracking dungeon on my floor.
+- Ah, a paying customer. Or a looker. I can always tell the lookers. They look.
+- Evening. If you're here for the Cartographer, he moved. If you're here for the girls, they didn't.
+- Back again? Either you love the show or you've got nowhere else to sleep.
+- Sit, drink, tip, repeat. That's the whole business plan.
+- You smell like spider guts and bad decisions. You'll fit right in.
+- Welcome! First rule of the club: there's a lot of rules. Ask me about them.
+rules:
+- Look, but don't touch. Hands where I can see them, and I can see very far.
+- Keep your sword sheathed. And that goes for your little sword too.
+- No spells on the dancers. Last guy cast Charm Person. He's still mopping.
+- No fighting. If you need to hit something, hit the tip jar.
+- No bringing your own potions. You drink what I sell, at the price I sell it.
+- No petting the bouncer. He's not a dog. He bites like one, though.
+- If a girl says you're her favourite, she says that to everyone. Tip anyway.
+- Pay before you pass out. I'm not going through your pockets again.
+- Don't ask the girls about their real names. They'll tell you, and then you'll know too much.
+- No necromancy on the premises. We had a whole thing with a skeleton and a lap dance. Never again.
+- Boots off the sofas. Those are imported. From the back room.
+prices:
+- Buy something? You won't find higher prices anywhere else. The girls have got to get through college, you know.
+- Red mends your bones, blue tops up your Kymia, and the meat is mostly meat. Prices are firm. Like my handshake.
+- Everything's marked up. That's not a scam, that's ambience.
+- I'd give you a discount, but then I'd have to like you.
+- Cheaper potions in town? Sure. Do they come with a view? They do not.
+- Think of the price as a donation to the arts.
+gossip:
+- $GIRL owes me forty coins and an apology, in that order.
+- Some knight came in last week, kept his helmet on the whole time. Shy, I think. Or ugly.
+- Word is the Acolytes run a club too. All robes, no style. Terrible tips.
+- The spiders out back keep trying to get in. I told them, no web, no entry. Get it? No? Tough crowd.
+- $GIRL's saving up for a farm. Can you imagine? Pole to plough.
+- Had a ghost come in once. Drank nothing, tipped nothing, stared at everything. Worst customer I ever had.
+- If anyone asks, the fire exit is a decorative door.
+- Between you and me, the house always wins. I'm the house.
+girls:
+- $GIRL is the best dancer in Emberville. She'll tell you herself. Repeatedly.
+- Don't fall in love with $GIRL. Everyone falls in love with $GIRL. It's bad for business and worse for you.
+- The girls? Professionals. Treat them like it and tip like you mean it.
+- $GIRL once threw a drunk out by herself. Barefoot. In heels. Don't ask me how.
+- They all came here for different reasons. They all stay for the same one: tips.
+bye:
+- Come back soon. Bring money. Bring more money.
+- Go on, then. The door's where you left it.
+- Mind the step, mind the bouncer, mind your manners.
+- Leaving already? The night's young. You're not, but the night is.
+vip_info:
+- Through that doorway? The VIP room. Ruby, a plush sofa, and nobody named Gorm. Talk to the big lad standing in it. Bring $PRICE coins.
+- That's VIP. Ruby dances privately back there. The bouncer wants $PRICE just to step out of the doorway, and that's before you've spent anything on her.
+- VIP? Ask the bouncer. He's the one built like a wardrobe.
+
+[bouncer]
+greet:
+- VIP's behind me. $PRICE coins and I step aside. No coin, no stepping, no Ruby.
+- Whoa there. This is the VIP room. Very Important People. Are you important? Prove it. $PRICE coins.
+- Evening. You look like trouble. Trouble pays $PRICE coins, same as everyone, if trouble wants to see Ruby.
+- Hold it. I am the door. Doors cost $PRICE coins.
+- I've stood in doorways in the Vitromotus that had monsters on both sides. This one's easy. $PRICE coins.
+- Ruby's dancing private tonight. The curtain's free. Getting past me isn't. $PRICE coins.
+- You've got the look of someone who just climbed out of a waypoint. Welcome back to the world. VIP's $PRICE.
+- Name's not important. Mine, I mean. Yours isn't either. Coins are. $PRICE of them.
+- Stop. Think. Count to $PRICE. In coins. Then we'll talk.
+- Every soul in Emberville came back from that crystal prison with nothing. Ruby came back with talent. That costs $PRICE coins.
+greet_paid:
+- You're good. Go on through. Behave in there.
+- Back again? You're still on the list. In you go.
+- Still here, still big, still watching you.
+- You paid, you're in. I remember faces. I just don't remember names. Nobody does any more.
+- Through you go. If you hear her laugh, that's good. If you hear me laugh, run.
+- On the list and in my good books. Don't make me move you from one to the other.
+cover_paid:
+- Pleasure doing business. In you go. Keep your hands to yourself in there.
+- In you go, big spender. If she asks, I was very rude to you.
+- Enjoy the private show. And tip. She always knows when you don't.
+- Coins counted. Step lively. Mind the curtain, it's older than the town.
+- That's the spirit. Ruby says the sofa's warm. I say keep it that way and keep it decent.
+- Right, I'm stepping aside. Don't get used to it. Nobody gets used to it.
+bribe:
+- Is that... Glimmerdust? Hand it here. Go on through. I never saw you. I'm seeing a lot right now.
+- Oh, you're a smart one. Go on through. Don't tell Trixie I've got her stuff.
+- I don't take bribes. I take gifts. This is a gift. Thank you. Go on in.
+- Kymia dust, is it? Fine. In you go. If my heart explodes, I'm haunting you, and around here that's a real threat.
+whoami:
+- Nope. Don't know, don't care. $PRICE coins.
+- Let me guess. Chosen one? Prophecy? Ancient bloodline? Still $PRICE coins.
+- Somebody who's about to pay for VIP, that's who.
+- Pal, last week I turned away a dragon. A small one. Still $PRICE coins.
+- You're the one bringing the villagers home? Good on you. Still $PRICE coins. Heroism doesn't pay rent.
+- Do I know who you are? Friend, half this town can't remember who THEY are. Coins don't forget. $PRICE.
+- Last bloke who asked me that was an acolyte. Said Mordaxius would hear of it. I said tell him the cover's $PRICE.
+- I don't care if Tinetia herself sent you. She'd pay $PRICE coins too. Actually, she'd glare at me until I moved. But you're not her.
+dress:
+- VIP dress code is: you've got pants on. Mostly. Armour's fine. Blood's fine if it's dry.
+- No capes in the VIP room. Capes get stuck in the curtain. Long story. Three funerals.
+- Boots on, weapons sheathed, dignity optional.
+- Bones sticking out are fine, this is Emberville. Bones sticking out of your trousers are not.
+- If your armour's still twitching from some acolyte's experiment, leave it at the door.
+- Wash off the spider goo. All of it. Ruby can smell Matriarch from across the room.
+chat:
+- Quiet night. Only threw out two goblins and a bard.
+- I'm not just muscle, you know. I'm also a lot of muscle.
+- I wanted to be an adventurer once. Then I saw how much you lot get paid.
+- My mum thinks I work in hospitality. Technically correct.
+- If a skeleton comes in asking for Steve, he's not here.
+- The girls say I'm a big softie. I'm not. Don't tell anyone.
+- I did nineteen years in the Vitromotus. Or nine. Or ninety. Hard to count when the clock is a mushroom.
+- I used to be a guard at the Palace of Equity, before all this. Guarded the crystal itself. Then somebody touched it and here we all are.
+- Died in there once. Rock fall. Woke up three days later, starving, but whole. Kymia's a funny thing. Funny like a punch.
+- I've thrown out scavengers, acolytes, a man made of roots and one very confused beastman. The beastman tipped.
+- See this scar? Spider. See this one? Different spider. See this one? Ruby's ex.
+- I keep a horolofungi in my pocket. Red means work, green means sleep. It's been red a long time.
+- You know what's harder than holding a door? Holding a door while the music's this good.
+- Ruby and me came through the same waypoint. She was crying. I was crying. Don't tell her I told you.
+- Gumu tried to sell me a shield once. I told him I am the shield. He tried to sell me a bigger me.
+- Some nights I think about Ruton. Arm fused to his shield and still standing guard. Respect. Bit jealous, honestly. Free shield.
+- The acolytes say kymia comes from despair. You should see this place at closing time. We could power a city.
+- I'm learning to read. Madame at the library lent me a book. It's mostly about bones. I like it.
+block:
+- Whoa, whoa. VIP's $PRICE coins. Talk to me first.
+- Nice try. I'm standing here for a reason, friend.
+- Ah ah ah. Nobody squeezes past me. I'm very wide.
+- That's the VIP room. You're not on the list. Yet.
+- Not so fast. I've held doorways against worse than you.
+- Bump into me again and you'll be bumping into the street.
+- Easy. I don't move for free. Ask the barkeep, he's tried.
+- You'd have better luck walking through the Vitromotus walls.
+- Talk first, walk second. That's the order of things.
+- Back up, sweetheart. This doorway's spoken for.
+bye:
+- Your loss.
+- Come back when you've got coin.
+- Move along, then.
+- Mind how you go. And mind the step. Everyone forgets the step.
+- Off you pop. Don't die out there. Or do, and come back. That's how it works now.
+- Later. Bring coin, not excuses.
+
+[private]
+scene:
+- $NAME leads you through the velvet curtain and pushes you down onto the sofa.
+- The music slows. The lights go pink. You forget your own name for a moment.
+- She dances like the pole owes her money.
+- At some point she takes your sword "for safekeeping". You don't argue.
+- You try to look cool. You do not look cool. She doesn't seem to mind.
+- She whispers something in your ear. It's the price list. You nod anyway.
+- Time stops. Or the song does. It's hard to tell in here.
+- You make a noise you will deny making for the rest of your life.
+- She laughs at your jokes. All of them. Even the one about goblins.
+- She spins so close you can smell the glitter.
+ending:
+- The song ends. You leave $PRICE coins lighter and strangely at peace with the world.
+- When the lights come up, $NAME is counting coins and you're grinning like an idiot. Worth every one of the $PRICE.
+- You stagger out $PRICE coins poorer. You'd do it again. You know you would.
+
+[common]
+greet:
+- Hey there, handsome. Or whatever you are under all that armour. Oh, you're not wearing any. Bold.
+- Well hi, sugar. New in town, or just new at this?
+- Look who it is. My favourite customer. Don't tell the others I said that. I say it to the others.
+- Hiya, $PLAYER! Didn't think you'd come back. Nobody comes back without coin.
+- Oh good, someone who doesn't smell like the sewer. Well. Less.
+- Hey, adventurer. Kill anything interesting today?
+- Oh, it's you. The one dragging villagers out of the crystal. Sit down, hero, you've earned a look.
+- Evening, sugar. You've got that waypoint shimmer on you. Fresh out of the Vitromotus?
+- Hi! Don't mind the glitter. It's not kymia. Probably not kymia.
+- Well look at you. All muscles and memory loss. My type exactly.
+- Welcome to the warmest room in Emberville. The rest of town's still missing half its people.
+- Hey you. Yes, you. The one pretending not to look. Come here, I don't bite. Not on the clock.
+- Ooh, fresh blood. Not literally. Is that blood? Wipe that, sugar.
+- Hey stranger. I'd ask your name but around here nobody keeps theirs for long.
+- Hi, sweetheart. Coins in one hand, drink in the other, eyes wherever you like.
+- Oh hi, $PLAYER! You came back from the tunnels in one piece. Or did you? Turn around. Okay, one piece.
+- Look who survived another day. Statistically you're my best regular.
+- Hey hero. Tinetia send you, or did your feet just know the way?
+- Hello, darling. Don't worry, everyone's awkward their first time in here.
+- Hi! You look like you fought something with too many legs. Sit, sit.
+work:
+- Heels at the start of a shift, blisters by the end. Glamour, baby.
+- The pole's cold for the first five minutes. Then it's freezing for the rest of them.
+- A guy tried to pay me in goblin teeth tonight. I took them. A girl's got to diversify.
+- Worst tippers? Wizards. They think a sparkle trick is currency.
+- Best tippers? Blacksmiths. Strong hands, soft hearts, deep pockets.
+- My feet hurt, my back hurts, and the music's been the same song for nine minutes.
+- Some nights it's champagne and compliments. Most nights it's sweat and a guy named Gorm.
+- I told a regular I was a librarian by day. Now he brings me overdue notices as a joke. I hate it here.
+- If one more knight calls me "m'lady", I'm going to sheathe his sword somewhere unpleasant.
+- The barkeep says smile more. I say tip more. We're both disappointed.
+- Rule one of the job: never let them see you count the tips. Rule two: always count the tips.
+- Glitter gets everywhere. I found glitter in my soup. I found glitter in my dreams.
+- An acolyte came in tonight, hood up the whole time. Tipped in kymia shards. I don't even know what to do with those.
+- Mages are the worst. One tried to levitate his tip onto the stage. It landed in Gorm's drink.
+- Archers sit at the back and stare. Knights sit at the front and clank. Wanderers just wander. Pick a seat, people.
+- A beastman came in and tipped me a whole fish. Raw. Still flapping. I named it.
+- The heels I wear cost more than a smelter. Tolcan's still not done making my new ones.
+- Dancing in here is easy. Dancing in here while a scavenger chews the doorframe, that's skill.
+- You know how many times I've said "no touching" tonight? Me neither. I lost count around Gorm.
+- Busy night. Everyone who comes back from the crystal wants a drink and someone to look at that isn't a monster.
+- Morcha does our costumes. She says she's not making anything smaller. I said fine, make it shinier.
+- A man cried at my set tonight. Said I reminded him of his wife. Then he remembered he's never had a wife.
+- The secret to a good dance is pretending the guy in front isn't wearing three different skulls.
+- I asked the barkeep for a raise. He gave me a slightly taller stool.
+- Some guy asked if I did requests. I said yes. He requested I stop. Rude, but valid.
+- One hero tipped me a Kymia tonic. I drank it. My feet stopped hurting. Best tip ever.
+- People in here tip better after a near-death. You'd think they'd tip worse. Nope. Living's worth a few coins.
+- There's a regular who only comes in to sleep in the booth. I charge him rent now.
+- The lights go pink, I go up the pole, the coins come down. Simple as that. Simple as my back hurting.
+- Tonight a drunk asked me to marry him. I said I'm already married to the pole. He respected it.
+- Never trust a customer who claps on the off-beat. Never.
+- Scavengers try to sneak in at least once a week. They're always caught. It's the smell. And the cooking pots.
+- Some customers don't even look. They just want company. Those are the ones I'm nicest to.
+- The pole's got a dent from the night a knight charged in thinking it was a monster.
+- An apothecary tried paying in bandages. We took them. We go through a lot of bandages.
+- I do three sets a night, four if the coin's good, five if it's Gorm's birthday. He has a lot of birthdays.
+- Some heroes tip with loot. I've got a drawer full of rusted swords and one very angry crab.
+- The bar runs dry, the lights burn out, the music skips. The show goes on. That's the job.
+- I learned to dance in the dark, back in the tunnels. Out here with the lights on, it's easy.
+- A man tried to haggle on a lap dance. Haggle. On a dance. In my club. He's still outside.
+- The best part of the night is when the music's loud enough that nobody can talk.
+- Every girl in here has a story, sugar. The tips are how we keep writing it.
+life:
+- I'm not doing this forever. Five more years. Six, tops. Seven if the farm falls through.
+- My mum thinks I work at the apothecary. Technically I do sell people things that make them feel better.
+- I used to be an adventurer like you. Then I took an arrow to the knee. Now I take tips with the other one.
+- Rent in Emberville is criminal. And I'd know, I've met the criminals. They tip well.
+- I'm saving up for a little house outside town. With a garden. And a lock. A big lock.
+- People think it's all glamour. It's mostly laundry. So much laundry.
+- I'm studying alchemy on my days off. One day I'll mix potions instead of drinks for idiots.
+- I had a boyfriend once. He was a bard. Never again. Never, ever again.
+- I don't date customers. I date their wallets, briefly, from a distance.
+- They took me from Emberville with everyone else. One minute I'm hanging laundry, the next I'm in a crystal world with no sky. Laundry's still on the line, probably.
+- In the Vitromotus I died twice. Once from hunger, once from a fall. Both times I woke up hungry and furious. Some things never change.
+- I don't remember my mother's face. The crystal takes that from you. I remember her singing though. I hum it on stage sometimes.
+- Somebody carved marks on a cell wall to count days. I found mine. I'd counted to four hundred and stopped. I don't know why I stopped.
+- When I got out, I came straight here. The town was empty, the club was empty, and the pole was just standing there. Felt like fate.
+- My father was a fisherman. The Warden locked up a whole family for one fish once. I think about that every time someone haggles.
+- I've got a little horolofungi growing in my room. Red, green, red, green. It's how I know I'm still counting.
+- I keep a journal now. Everyone in town does. When your memory leaks, ink is all you've got.
+- I was in a cell next to a Wortai woman who sang in a language I didn't know. I still dream in it.
+- Out there I was nobody. A prisoner, a number, food for spiders. In here I'm the girl everyone tips. I'll take it.
+- I used to think dying was the end. Now I know it's just a nap with worse dreams.
+- I've got a scar on my shoulder from an acolyte's knife. He wanted my kymia. He got my knee instead.
+- My sister is still in the Vitromotus somewhere. Every time a hero brings villagers home, I check the faces.
+- I lived with scavengers for a while. They wanted to eat me. Then they heard me sing and wanted to keep me. Then they wanted to eat me again.
+- I'm going to open a bakery someday. Or a smithy. Or a bakery that sells swords. Haven't decided.
+- Tinetia patched me up once when I got stabbed. Didn't say a word, just stitched. Scariest kindness I ever got.
+- I've been told I have a lot of kymia in me. Comes from all the feelings, apparently. Dancing helps let it out.
+- Adeos told me I look like someone he knew. Then he forgot who. Then he forgot me. Sweet old man.
+- Before all this I was going to be married. I don't remember to who. I think that's for the best.
+- I came out of the waypoint holding a stranger's hand. We never said a word. I see him in here sometimes. He always tips.
+- I'm teaching myself to read from the lore scraps people bring back. Mostly it's sad letters and recipes. Good practice though.
+- I've been a cook, a thief, a farmer, a prisoner and dead. Dancer's the best one.
+- Sometimes I go to the edge of town at night just to look at real stars. You don't know how much you miss a sky until you lose it.
+- My grandmother said the Faier gods dance in the trees. I figure if it's good enough for gods, it's good enough for coin.
+- One day I'll walk out of Emberville and not come back. Then I'll come back, because this is home now. Strange, but true.
+- I don't hate the Vitromotus. I hate what it did to people. I hate what people did in it more.
+bark:
+- Somebody tip the redhead, she's earning it tonight!
+- Who ordered the cheap stuff? Rookie.
+- If you're not tipping, you're just watching furniture.
+- Ugh, my feet.
+- Nice gear. Shame about the face. Kidding! Mostly.
+- Hey sugar, buy a girl a drink?
+- That guy at the bar has been nursing one potion for an hour.
+- Is that a sword or are you just happy to be here?
+- I love this song. I hate this song. It's the only song.
+- Tips are like compliments, but useful.
+- Somebody's mum would be so disappointed right now.
+- Eyes up here, adventurer. Well. Eyes wherever, you paid the cover.
+- Swear to the Ember, if he says "m'lady" one more time...
+- Who let a scavenger in? Oh. That's just Gorm.
+- Mind the glitter, it's slippery.
+- Ooh, someone came back from the tunnels with loot!
+- Drinks are on you, sugar. Literally, if you keep waving them.
+- Is it hot in here or is it the spotlight?
+- If one more mage sets the curtains alight, I'm quitting. Again.
+- Look at Mocha go!
+- Violet's lights are purple again. Shocking.
+- Ruby's in VIP. Somebody's having a very expensive night.
+- Kymia shards are not coins. Stop throwing them at me.
+- Who brought a cooking pot in here? Scavenger, is that you?
+- Hands where I can see them, hero.
+- I swear that skeleton by the bar winked at me.
+- The bouncer's smiling. Somebody paid.
+- Tip, tip, hooray!
+- Somebody spilled a Neon Ember on my shoes. Again.
+- Does anyone know if the spiders are back in the cellar?
+- One more song and then my break.
+- You know you can blink, right?
+- These heels have died more times than I have.
+- Who's got the Glimmerdust? Never mind, I know who.
+- I need a drink. I need a nap. I need a raise.
+- Watch the stool, sugar, it bites.
+- Nobody touch the bouncer, he's sensitive.
+- Coins in the jar, not down my top. Well. Fine.
+- Somebody please request a different song.
+- That's a lot of armour for a night out.
+- Hey hero, save me from this conversation.
+- Smile, it's free. The dance isn't.
+- Emberville's finest establishment. Only establishment. Same thing.
+- Who smells like Spider Matriarch? Out. Bath. Now.
+- Look alive, the big spenders just walked in.
+gossip:
+- $GIRL and the barkeep? No. Absolutely not. Okay, once. Don't say anything.
+- The bouncer cries at the end of every shift. Big softie.
+- $GIRL tells every customer she's an orphan. She has eleven siblings.
+- Somebody's been stealing the cherries from the bar. It's the barkeep. It's always the barkeep.
+- There's a rumour the VIP room is haunted. It's not. It's just Steve.
+- $GIRL is secretly the best fighter in here. Ask her about the knife in her boot. Actually, don't.
+- Gumu came in last week. Tried to sell the barkeep his own stools back. Nearly worked.
+- They say Mordaxius has a dancer of his own, animated from armour. Can you imagine? A suit of plate doing a shimmy.
+- $GIRL used to be an acolyte. Hood and everything. Now look at her. Hoodless.
+- Tinetia came in once. Didn't drink, didn't tip, didn't blink. Everyone behaved perfectly. Best night we ever had.
+- The barkeep says he was a Duthach gem cutter. He cuts limes like one, I'll give him that.
+- Heard Ruton Iron-Arm tips with his good hand and blocks the bar with the shield one.
+- $GIRL owes Trixie money. Everyone owes Trixie money. Nobody knows how.
+- The acolytes say kymia comes from suffering. The barkeep says it comes from the prices.
+- $GIRL has a crush on a beastman. Big fluffy one. Brings her mushrooms.
+- Someone said the Heartwood Abomination used to be a gardener. Explains the hedges.
+- Rumour is Adeos came in once, forgot why, and stayed for six songs.
+- $GIRL dated a wizard. Said he kept vanishing. Literally. Teleport spell.
+- Madame at the library asked if we had any books. We gave her the drinks menu. She read it all.
+- I heard there's a crab in the Sunken Crater the size of this club. $GIRL wants to ride it.
+- $GIRL found a letter in the tunnels. Old love letter. She reads it every night and won't say who it's from.
+- The bouncer was a palace guard. Guarded the crystal itself. Some say he's the one who touched it first.
+- Nagedra fixed the pole last month. Charged us double. Says it's a very emotional pole.
+- $GIRL has died five times. She's very proud of it. She keeps a tally on her ankle.
+- Atwor came in with bandages for everyone. Wouldn't take a drink. Saint, that one.
+- The barkeep keeps an anglerfish tank in the back for mood lighting. It hates him.
+- Somebody saw Kaldhor the Everliving's shadow in the corner booth. It was a coat rack. Still left.
+- $GIRL thinks the Vitromotus is alive. Watching. Hungry. She doesn't sleep much.
+- Heard the scavengers are planning a raid on the bar. They want the meat. It's mostly not meat.
+- Someone carved "$GIRL was here" into a cell in the Vitromotus. She swears she didn't.
+- Tolcan's sweet on $GIRL. Made her heels out of bark. They're surprisingly comfortable.
+- The Spider Matriarch's lair is near the old acolyte outpost. $GIRL went there on a dare. She came back with a new walk.
+- Word is Warden Turos made the Vitromotus to fix overcrowding. Now look. Overcrowded club.
+- $GIRL thinks Mordaxius is handsome. In a creepy, ancient, bone-collecting way.
+- Gorm proposed to $GIRL again. With a ring made of spider fang. She's thinking about it.
+- The stage lights run on something the barkeep won't name. I've seen him sneak kymia crystals into the box.
+- $GIRL tried to steal Velvet's song for her set. There was a slap fight. Velvet won.
+- Morcha won't sew sequins any more. Said the last batch came alive. It's the kymia, I'm telling you.
+- $GIRL is saving every coin for a ticket out of Emberville. Problem is, there's nowhere to buy one.
+- The Rift, they say, has shadows that dance. $GIRL wants to recruit them.
+bye:
+- Bye, sugar. Come back when your pockets are heavier.
+- See you around, $PLAYER. Try not to die out there, you're a regular now.
+- Off you go. Don't forget to tip on your way out. That's a joke. It's not a joke.
+- Kisses! Not real ones. Those cost extra.
+- Go save the world or whatever. I'll be here, saving up.
+- Bring back a villager for me. A cute one.
+- Off to the crystal again? Watch the spiders.
+- Bye, hero. If you die, come back. Everyone does.
+- See you next time. I'll save you a seat. For a fee.
+- Go on then. The night's not over, but you are.
+- Don't be a stranger. Be a regular. Regulars tip.
+- Take care, $PLAYER. Mind the acolytes.
+tip_small:
+- Aw, thanks sugar. That's one sock closer to a new pair of heels.
+- Ten coins? You big spender. No, really, thank you. Most guys tip in compliments.
+- A tip! Look at you, being a gentleman. Don't let it go to your head.
+- I'll put this in the jar marked "Dreams". It's the jar right next to "Rent".
+- Thanks, $PLAYER. I'll think of you when I'm paying for my blister cream.
+- Ooh, coin! The real kind, not kymia shards. You're a darling.
+- That'll buy me one bandage from Atwor. My feet thank you.
+- Small but sincere. Like my last boyfriend.
+- Every coin counts. I count them twice, actually.
+- Thank you, hero. Go on, save some more villagers, they'll tip too.
+tip_big:
+- Oh! Oh my. Okay, you're my favourite now. Actually my favourite. Not the regular favourite.
+- Fifty coins?! Are you proposing? Because the answer is "keep tipping".
+- That's rent. You just paid my rent. I could kiss you. I won't. But I could.
+- Big tipper alert! Everyone look at this beautiful idiot!
+- You're either very rich or very lonely. Either way, thank you.
+- Did you rob an acolyte? Don't answer. Thank you!
+- That's a week of food. A real week, not a mushroom week. Thank you, sugar.
+- Now that's a hero. Forget saving the town, you just saved my month.
+- I'm going to frame one of these coins. The rest I'm spending.
+- Somebody's been looting the Vitromotus. Good. Share the wealth.
+broke:
+- No coin, no conversation, sugar. Well, a little conversation. A short one.
+- You're broke? In a dungeon-crawling economy? Go kill something valuable and come back.
+- Empty pockets? That's fine. I'll just look at you like you're furniture.
+- Honey, I can hear your coin purse echoing from here.
+- No coin? Go smash some scavengers. They always carry a little.
+- Broke? Gumu buys anything. Sell him your boots.
+- That's alright, hero. Sit there and look tragic. It's free.
+- No coin, no tip, no problem. Well, small problem. My rent problem.
+follow_start:
+- Ooh, an outing! Is it dinner? Tell me it's dinner. It's not dinner, is it.
+- Fine, but if I get spider goo on my shoes, you're buying me new ones.
+- Lead the way, hero. Slowly. These heels were not made for caves.
+- Anything to get away from Gorm for an hour. Let's go.
+- Is this a date? Don't answer that. I'll decide later.
+- An adventure! With a real adventurer! Do I need a sword? I've got a stiletto.
+- Fine. But if we go near the Vitromotus, I'm holding your hand. Tightly.
+- Okay, but I'm not carrying anything. These arms are for spinning.
+- You, me, the open road and my blisters. Romantic.
+- Let's go before the barkeep notices I'm on shift.
+follow:
+- When you said "let's get out of here", I pictured candlelight. Not this.
+- Are we nearly at the restaurant? Is there a restaurant? There's no restaurant, is there.
+- My friend's boyfriend takes her to the tavern. You take me to stab things.
+- I'm cold. I'm hungry. I've got a pebble in my shoe. Best date ever.
+- You know other people just go for dinner, right? Soup. Bread. Not murder.
+- Ooh, is that a chest? Is it for me? It's not for me.
+- If we die out here, I'm haunting you specifically.
+- Do you ever stop walking? My calves have calves now.
+- I could be making tips right now. I'm making memories instead. Terrible ones.
+- Every time you swing that sword I lose a year off my life.
+- So this is what you do all day. Wow. Wow. Okay.
+- Next time, I pick the date. It'll be indoors. With chairs.
+- I'm not complaining. I'm just describing everything I hate out loud.
+- Are you lost? You walk like you're lost.
+- Is that a scavenger camp? I'm not going in there. They'll put me in a pot. Again.
+- If you take me to the Vitromotus, I swear by Faey I'll walk home.
+- Ooh, a mushroom. Is it a clock one? Red. Means we should be in bed. Separately.
+- Why does every road here go underground?
+- That bush moved. That bush moved, $PLAYER.
+- I have glitter in places that are not happy about this hike.
+- Do you even know where we're going? Don't say "deeper".
+- I used to walk these tunnels as a prisoner. Now I walk them as a date. Somehow worse.
+- Smells like spiders. Everything out here smells like spiders.
+- You know, you're quite brave. Stupid, but brave.
+- At least the acolytes out here are polite before they stab you.
+- My feet are begging for a waypoint.
+- Hold on, I'm checking my reflection in this puddle. Okay. Still gorgeous.
+- I'm telling the girls you took me sightseeing. In a dungeon.
+- If we find treasure, I get half. I'm here for moral support.
+- You fight, I'll scream. Teamwork.
+follow_end:
+- Finally. My feet are filing a complaint.
+- Thanks for the lovely evening of being nearly eaten. Call me never. Call me soon.
+- Back to work. Somebody's got to pay for these shoes you ruined.
+- That was fun. That was horrible. Let's do it again sometime.
+- I'll tell the girls it was romantic. Don't make me a liar.
+- Home sweet pole. Bye, hero.
+- I survived! I'm telling everyone. With extra spiders.
+- Same time next week? Somewhere with a roof.
+private_yes:
+- Ooh, VIP. Come on back, sugar. Mind the sofa, it's older than you.
+- Private, is it? Follow me. Hands on your knees. Your own knees.
+- Somebody's feeling fancy tonight. This way, big spender.
+rain:
+- Make it rain, baby! Oh, oh it's raining! Somebody get a bucket!
+- Coins from the sky! Is this what heaven's like? It's what heaven's like.
+- Now THAT'S how you watch a show!
+- Keep them coming, sugar, I can catch them with my teeth!
+- Ooh, shiny! Don't mind me, I'm just picking up my rent off the floor.
+- It's a coin storm! Everyone stay inside!
+pour:
+- It's pouring! It's absolutely pouring! I love you! I love money! Mostly money!
+- Two hundred coins?! Everyone stop dancing, we're rich!
+- I'm retiring! I'm buying a farm! I'm coming back tomorrow, but I'm buying a farm!
+- That's the biggest tip this stage has ever seen! The barkeep's crying!
+- Somebody looted a whole acolyte outpost! Thank you, thank you, thank you!
+
+[girl:Candy]
+greet:
+- Hiii! I'm Candy. Like the sweet. Not like the cane. Okay, a little like the cane.
+- Candy's the name, college is the game. Well, the dancing pays for the game.
+- Oh hi! Don't mind the books on the table. Finals. Dancing finals and enchanting finals.
+- Hey you! Want to help me study? Name three runes for sharpness. No? Tip instead.
+work:
+- Every tip goes straight to tuition. Every compliment goes straight to my head.
+- I'm doing a thesis on human behaviour. This place is basically my laboratory.
+- Professor Mallow came in last week. He gave me an A. I gave him a look.
+- I enchanted my heels to glow. Then they wouldn't stop glowing. I sleep with them under the bed.
+- I put a tiny charm on the tip jar so it hums when it's full. It hasn't hummed yet. Help it hum.
+- Between sets I practise runes on napkins. The barkeep keeps finding sparkly napkins. He's scared of them.
+life:
+- Second year at enchanting school! If I fail runes, I'm going to be so mad. If I pass, I'm still going to be dancing.
+- My roommate thinks I work nights at the library. I mean, I do read people.
+- Enchanting school costs a fortune. You have to buy your own runestones and they break if you look at them wrong. So I dance.
+- My parents run a farm out past the woods. They think I'm on a scholarship. Me and Violet both. We should start a club.
+- I want to open a shop. Enchanted boots, glowing swords, a sign that says No Refunds. Heroes will love it.
+- Madame at the library lets me borrow books if I explain them to her slowly. I think she's lonely. I bring her cake.
+bark:
+- Tips are tax deductible! They're not. I'm a student, not an accountant.
+- Exam tomorrow, dance tonight, cry on Thursday.
+- Fun fact! Enchantments run on kymia, and kymia comes from emotions. So feel things! Feel generous!
+- Somebody quiz me! Anybody! Ugh, you're all drunk.
+- I'm on page ninety of a book about bones. It's a page-turner. Literally, it's heavy.
+gossip:
+- Mordaxius plagiarised half his treatise, I'm sure of it. The footnotes are terrible.
+- $GIRL asked me to enchant her a love charm. I gave her a pebble. She's engaged now. Magic!
+
+[girl:Roxy]
+greet:
+- Roxy. Fifteen years on the pole. I've seen everything twice and most of it badly.
+- Oh good, another hero. Sit down, hero, and keep your coins where I can see them.
+- Evening. Don't call me ma'am, don't call me grandma, call me Roxy and tip.
+- You look like you need a drink and a talking-to. I can do both.
+work:
+- I trained half the girls in here. They're good. They're not Roxy good, but they're good.
+- The trick to a great show is pretending the guy at the front isn't eating soup.
+- My knees make a noise now. It's like a cricket. A sad cricket.
+- I can still do the iron cross. Once. Then I need a lie down and a healing potion.
+- New girls think it's about the pole. It's about the eyes. Look at one man like he's the only one. Then look at the next one.
+- I danced in a scavenger camp once. For my life. Literally. They let me go after the encore.
+life:
+- I was a mercenary before this. Paid worse, smelled worse, same amount of men shouting.
+- I've got a cat named Sir Pounce. He's the only man in my life who's never disappointed me.
+- I did my time in the Vitromotus before most of these girls were born. Then I died, came back, and they were older than me. Kymia's funny like that.
+- I fought for the acolytes, once. Guarded an outpost. Then I saw what they did with the prisoners' kymia and walked out the waypoint.
+- I had a daughter. Or I think I did. The crystal ate the memory. I look at the young ones in here and wonder.
+- When this place opened, it was me, a pole and a bucket for tips. Now look. Lights. A bouncer. A whole bucket.
+bark:
+- In my day we didn't have lights. We had candles and courage.
+- Somebody straighten that stool, my back can't watch it lean like that.
+- Back straight, ladies! I can see you slouching from here.
+- I've outlived three barkeeps and two deaths. I'll outlive this song too.
+- If you're going to stare, stare respectfully.
+gossip:
+- I taught $GIRL her first spin. She fell into Gorm's lap. They've been friends ever since.
+- The old barkeep was an acolyte. Tried to harvest the girls' kymia. The bouncer harvested his teeth.
+
+[girl:Starla]
+greet:
+- The stars told me you'd come tonight. They also told me you'd tip. Don't make the stars liars.
+- Hi, I'm Starla. What's your sign? No, let me guess. Something with horns.
+- Oh, your aura! It's so... dungeon-coloured.
+- Welcome, traveller. I dreamed of you. You were a goat. But I think it was you.
+work:
+- Mercury is in retrograde, which explains the tips.
+- I read a customer's palm once. It said "wash me".
+- I dance under the blue light because blue is the colour of destiny. And it hides my bruises.
+- I did a tarot reading for the bouncer. He drew the Tower. He's very worried. He shouldn't be. It's about his height.
+- My crystals keep the bad energy away. Except Gorm. Gorm's energy is too strong.
+life:
+- I came to Emberville because a fortune teller said I'd find my destiny here. I found a job. Close enough.
+- My crystals tell me I'm going to be rich. My crystals also cost a lot.
+- In the Vitromotus there are no stars. I made my own out of glowing mushrooms on my cell ceiling. I named them all.
+- I went to the Crystal Archways once. The crystals sing there. I sang back. They didn't like me.
+- When I first saw the real sky again, I cried for a whole day. Then I did everyone's horoscope. Free. Never again.
+- I think I was a priestess before the crystal. I still bless my heels before every set.
+bark:
+- I'm sensing a big tipper. I'm sensing it very hard. Any second now.
+- Your aura's beige. Tip and it turns gold.
+- The cards say someone in this room will buy me a drink.
+- Kymia is just stars that fell inside people. I made that up. It's beautiful though.
+gossip:
+- I read $GIRL's fortune. She's going to marry a man with three arms. I think it's the Heartwood Abomination.
+- The stars say the barkeep is hiding something. The stars and the locked cabinet.
+
+[girl:Destiny]
+greet:
+- I'm Destiny. Some girls call it fate. I call it a business arrangement.
+- Hello, darling. You look like someone who's never once taken a girl out to dinner.
+- Ah. A hero. I prefer nobles, but heroes have better loot.
+- Good evening. You may admire me. Admiration is free. Proximity is not.
+work:
+- I don't dance for tips. I dance for investments.
+- A gentleman bought me a pearl necklace once. Turned out it was cave fish eggs. Still wore it.
+- I keep a ledger of every man who's said he loves me. I charge interest.
+- I only do two dances a night. Scarcity is value, darling.
+- An acolyte offered me a share of his outpost. I asked to see the books. He didn't have books. Next.
+life:
+- I've had six marriage proposals this month. Five were from the same man. He's very patient and very poor.
+- My dream? A rich husband with a weak heart. I'm joking. Mostly. A little joking.
+- Before the crystal I was a lady at court. Or a lady's maid. The memory's foggy, but I definitely remember silk.
+- I spent my prison years running a trade in mushrooms and gossip. By the end I owned three cells and a guard.
+- In the Vitromotus I learned the most valuable thing a woman can own is a secret. I own many.
+- I'd marry Mordaxius for his library. Then I'd divorce him for the rest of him.
+bark:
+- If you love me, prove it. In coins. Coins are proof.
+- Somebody take me to dinner. A real dinner. With forks.
+- Darling, that tip was adorable. Try again.
+- I don't do cheap, sugar. I don't even do affordable.
+gossip:
+- $GIRL thinks she can afford my perfume. Bless her.
+- Gumu owes me a favour. You don't want to know what kind.
+
+[girl:Bambi]
+greet:
+- Oh hi! Are you a real adventurer? Like with quests and stuff? That's so cool. Is it dangerous?
+- I'm Bambi! Like the deer. Wait, is that a deer? I've never seen a deer.
+- Hiii! You have a sword! Can I hold it? No? Can I look at it really close?
+- Oh! You're the one who saved everyone! Or some people. Or one guy. You're famous anyway!
+work:
+- I got lost on the way to the stage again. It's twelve steps. I counted. I got lost on step four.
+- A man asked if I'd ever been to the Vitromotus. I said no but I've been to the bathroom twice tonight.
+- I tried a spin and spun right off the stage into a knight. He said thank you. Knights are nice.
+- I tell everyone my tips are going to a good cause. The good cause is shoes.
+- The bouncer taught me to count coins. I'm up to forty. Then it gets confusing.
+life:
+- I wanted to be a princess but you have to be born one, apparently. Rude.
+- My horoscope said today is a good day for money. Is that you? Are you money?
+- Wait, I WAS in the Vitromotus? Everyone keeps saying so. I thought it was a really long nap.
+- I died once in there! I don't remember it. I just woke up and everyone was being really nice to me.
+- I have a pet spider called Mister Legs. He's from the cellar. He's the small kind. Mostly.
+- When I grow up I want to be a waypoint. They go everywhere!
+bark:
+- Wait, which song is this? Oh. It's the song.
+- Is that the same spider from yesterday? Hi, spider!
+- Ooh, shiny coin! Is it for me? Is everything for me?
+- What's kymia? Is it like glitter? I love glitter.
+gossip:
+- $GIRL says she's dated an acolyte. I asked what that is. She said "a mistake".
+- The bouncer has a teddy bear. I gave it to him. Now he has a teddy bear!
+
+[girl:Jade]
+greet:
+- Name's Jade. I've got a dagger in my boot and a soft spot for good tippers. Guess which one you'll meet.
+- You've got dungeon dust on you. Which floor? I used to clear floor three for fun.
+- Hero. I'd say I'm impressed, but I've killed more spiders before breakfast.
+- Sit. Keep your back to the wall. Habit. You'll thank me.
+work:
+- Dancing's easier than dungeons. Fewer skeletons. Similar amount of grabbing.
+- I broke a guy's wrist tonight. Politely. He'll tip with the other hand.
+- The pole's basically a spear with ambition. I treat it like one.
+- I keep a rapier behind the stage. For drunks. And for scavengers. Sometimes they're the same thing.
+- A knight challenged me to arm wrestling for his tip. I have his tip. And his dignity.
+life:
+- I'm saving up for a proper sword. Not a cheap one. One that makes a noise when you swing it.
+- I'll join an adventuring party one day. You hiring? I'll bring snacks and violence.
+- I was a scavenger hunter in the crystal. Tracked them through the Savage Abyss for months. Their camps smell like stew and regret.
+- I died to the Spider Matriarch once. Took me four days to come back. I came back angry. She remembers me.
+- I heard about Iarabean, the old pick-axe blade. Clagmin's weapon. One day I'll find it and you'll see a real dance.
+- My brother was a tracker too. He's still in the crystal. I'll get him out. Or I'll get his sword. One of the two.
+bark:
+- If you're going to touch, you'd better be quick and insured.
+- Nice sword. Mine's bigger. In the boot. Want to see? No you don't.
+- Who wants to see a flip? Then a dagger throw? Then you tip.
+- I can hear an acolyte by the clank. Two of them at the bar. Keep your eyes open.
+gossip:
+- $GIRL thinks she could take me. She can't. I let her keep thinking it.
+- The bouncer and I spar on Thursdays. He wins. He says I win. We both lie.
+
+[girl:Velvet]
+greet:
+- Velvet. Smooth on the outside, expensive on the inside.
+- Shh, you hear that? It's the sound of you about to make my night.
+- Ah, a muse. Sit. Inspire me. Expensively.
+- Evening, darling. I'm writing a song about a hero. You'll do.
+work:
+- I write songs between sets. Mostly about men who don't tip. It's a long album.
+- One day they'll sing my songs in taverns. Until then, I dance to everyone else's.
+- The song playing now? I wrote a better one. The barkeep won't let me play it. Said it was "too sad".
+- I danced for the Singing Lady once. She cried. I cried. We both took a tip from the same man.
+- My best number is "The Ballad of Tinetia". It's slow. It has bones in it. Audiences don't know what to do.
+life:
+- I'm a bard, actually. A dancing bard. A barding dancer. Look, it's complicated.
+- My lute got stolen last month. If you see a lute with my name on it, break its owner's fingers.
+- I found a bard's diary in the tunnels. Every page was a song for someone he never saw again. I'm finishing his songs.
+- In the Vitromotus we sang to keep our memories. If you sing it, you don't lose it. I still know every song from my cell block.
+- I used to play for the Faier at their shrine. They paid in fruit. Fruit doesn't buy lutes.
+- I'm writing an opera about the Vitromotus. Act one: suffering. Act two: more suffering. Act three: a really good dance number.
+bark:
+- Ugh, if I hear this song once more I'll write a worse one out of spite.
+- Every tip is a verse, sweetheart. Write me a long song.
+- That's my rhyme! Who stole my rhyme?
+- Hum with me. Everyone. No? Philistines.
+gossip:
+- $GIRL tried to steal my song. I wrote one about her. It rhymes with "thief".
+- The barkeep was a bard once. Couldn't hold a tune. Holds a grudge though.
+
+[girl:Trixie]
+greet:
+- Trixie! Hi! Hey! Hello! Sorry. I'm just. I'm awake. I'm very awake. How are you? Good? Great!
+- Oh, you're new, hi, I'm Trixie, I talk fast, keep up, sniff, sorry, allergies.
+- Hey hey hey! Hero! Hi! Are you sleepy? You look sleepy. I can help. I'm helpful!
+- Oh it's you! It's you! I knew you'd come! I knew it twice!
+work:
+- I did four shows tonight. Or six. Time's weird. Is it Tuesday? It feels like Tuesday.
+- I'm not jittery, I'm just enthusiastic. With my whole jaw.
+- The barkeep says I dance too fast. I say the music's too slow. We've agreed to disagree loudly.
+- I tried dancing slow once. I fell asleep. Standing up. On the pole. Never again.
+- Got a guy so fast tonight he tipped twice. Didn't notice. Neither did I. Then I noticed.
+life:
+- My dentist says I grind my teeth. I say my teeth are just very motivated.
+- I haven't slept since the full moon. I've been very productive. I alphabetised the bottles. Twice.
+- In the crystal I mined kymia for the acolytes. Licked my fingers once. That's how I got into business.
+- Gumu taught me everything I know about selling. Then he tried to sell me. We're still friends.
+- I died three times in the Vitromotus and every time I came back I was a bit faster. Coincidence? Yes. Probably. Who cares!
+- I'm going to open a shop! Dust, tonics, pastries! Mocha's doing the pastries! She doesn't know yet!
+bark:
+- Has anyone seen my... no. Nothing. Never mind. Sniff.
+- Is it hot in here? I'm hot. I'm fine. Everybody's fine!
+- Allergies! Bad allergies. The worst allergies in Emberville.
+- Psst. Hey. You look tired. I can help with tired.
+- Ooh is that a horolofungi? It's green! No it's red! No it's green! Is it moving or am I?
+dust_offer:
+- Special? Me? I'm an open book. A book with a little pouch in the back. Glimmerdust, sugar. Ground Kymia crystal. Makes you fast. Makes you shiny.
+- Shh, shh. Okay. Glimmerdust. One pinch, you'll clear a dungeon before breakfast. Two pinches, you'll clean it too.
+- You didn't hear it from me, but I've got the good stuff. Crushed Kymia, straight from the Vitromotus. Sort of straight. Mostly straight.
+dust_sold:
+- Pleasure doing business! Don't do it all at once. Do do it all at once. I'm not your mother.
+- There you go. If anyone asks, it's sugar. Very sparkly sugar.
+- Enjoy! And remember, you never saw me. I was never here. I'm very fast.
+dust_broke:
+- No coin, no tonic, no dust, sugar. I've got overheads. I've got a jaw to feed.
+- Come back with thirty coins or a blue tonic. I'm a businesswoman. A twitchy businesswoman.
+
+[player]
+tipsy:
+- Ooh, that's nice. That's very nice.
+- I feel great. I feel warm. I feel like dancing. I won't.
+- Is it me or is everyone prettier now?
+drunk:
+- I'm not drunk, you're drunk. The floor's drunk.
+- I love you. I love all of you. I love this stool.
+- Why is the room doing that. Make the room stop doing that.
+- One more. One more and then I'll go kill a spider. Two spiders.
+wasted:
+- Whossh... who moved the door.
+- I can see two of everything. Twice the girls. Twice the bill.
+- I'm going to marry the barkeep. Or the bouncer. Whoever's closest.
+- Hic. Hic. Who said that. Hic.
+sober:
+- Okay. Okay, I'm fine now. Mostly fine.
+- Ugh. My head.
+passout:
+- Just gonna... rest my eyes... for a...
+- Floor looks comfy. Floor looks really comfy.
+wake:
+- Where... where am I? Where are my $COINS coins?
+- Somebody went through my pockets. $COINS coins gone. And my dignity.
+- I'm never drinking again. Also I'm $COINS coins poorer.
+after_private:
+- Worth it. Completely worth it.
+- I need to sit down. I am sitting down. I need to sit down more.
+- I'm in love. I'm also broke. I'm in broke love.
+high:
+- I can see sounds. Is that normal? That's normal.
+- I could fight a dragon. I could fight two dragons. Where are the dragons.
+- My heart is doing a drum solo.
+- Everything is so shiny. I am so shiny.
+- Has anyone ever told you you're amazing? I'm telling everyone. Everyone's amazing.
+- Let's go! Where? Doesn't matter! Let's go!
+- I can't feel my face. I love my face.
+- Who wants to start a band? I'll play everything.
+- I'm going to reorganise my whole inventory. Twice.
+- Is it Tuesday? It feels like Tuesday. It's every day.
+comedown:
+- Why is everything so loud. And so far away.
+- I need a nap. I need ten naps.
+- My nose is filing a complaint.
+- I regret everything. Mostly the last minute.
+- My legs are made of soup.
+- Never again. Never ever again. Okay, maybe once more.
+craving:
+- I wonder what Trixie's up to. No reason.
+- Could really go for some... sugar. Sparkly sugar.
+- I'm fine. I'm totally fine. Where's the club again?
+again:
+- More! More is good! More is better!
+- Oh, that's the stuff. That is all of the stuff.
+- My eyes are vibrating. In a good way.
+
+
+# The three dancers on the stage. Each has enough lines of her own that she never borrows from [common].
+
+# Ruby: the headliner, in the orange VIP room. Single mum to a little girl, Pip. Started dancing at
+# nineteen to pay off her late dad's debt to Gumu. Ex-gymnast. Her ex, a juggler, ran off with her
+# savings. Saving for a house with a yard and her own pole studio. Proud, warm, a little dangerous.
+[girl:Ruby]
+greet:
+- I'm Ruby, the headliner. The pole's mine, sugar. Everyone else just rents it.
+- Well, well. The hero who keeps bringing Emberville home. Sit where I can see you.
+- Evening, $PLAYER. You're staring. Good. That means the lights are working.
+- Hello, sugar. Welcome to the orange room. Everything in here is warm, and nothing in here is cheap.
+- Ruby. Red hair, red heels, red-hot prices. You've heard of me. Everyone's heard of me.
+- Oh, it's you. Come closer. Not that close. There. Perfect. Now you can see the best spin in Emberville.
+- You came all the way back here past the big lad? Brave. Or rich. Let's find out which.
+- Hi, darling. Don't be shy. I've danced for knights, mages and a man with roots for arms. You'll be fine.
+- The headliner greets you. Normally that costs extra. Tonight, I'm feeling generous.
+- Mm. You smell like waypoint and spider. My favourite kind of customer.
+work:
+- Gravity's my only real enemy. And Gorm. Gravity and Gorm.
+- I can hang upside down for five minutes. Ask me how I know.
+- Every move I do, I learned in a gym hall. Every price I charge, I learned from a landlord.
+- The orange lights are mine. I picked them. They make the room feel like a campfire, and people tip a campfire.
+- Most girls spin. I fly. There's a difference, and it's about twenty coins.
+- Ten years on this pole. I've got calluses on my calluses and a roof over my daughter's head.
+- I don't do the floor pole. The floor pole is for girls who want to be seen. I'm for people who pay to see.
+- The bouncer won't let anyone back here without paying. He says it's business. I know it's because he worries.
+- You want to know the secret? Slow down. Make them wait. Waiting's what they pay for.
+- A knight came in tonight and took his helmet off for the first time in nine years. He cried at my spin. I let him.
+- When I hit the top of the pole I can see the whole room. Every face. I count who tips. I always count.
+- The heels are Tolcan's work. Bark soles, copper buckles. Cost me a week of tips and they're worth two.
+- I warm up for an hour before every set. The new girls laugh. Then they watch me and stop laughing.
+- Pip's babysitter costs more than my heels. So every set, I dance like it's the babysitter's wages. Because it is.
+- The day I stop loving this pole is the day I'll stop climbing it. That day isn't coming.
+- Two shifts a night, five nights a week, and a little girl waiting up for me with a drawing. Best job in the world, worst hours.
+life:
+- I've got a little girl at home. Pip. Five years old, missing her front teeth, thinks I work at the inn. She's not wrong, it's just a very fun inn.
+- I started dancing at nineteen. My dad died owing Gumu more coin than our house was worth. Gumu doesn't do mercy, he does payment plans. So I found a plan that paid.
+- Paid off Dad's debt in two years. Gumu actually clapped when I handed over the last coin. Then he offered me a loan. I told him where to put it.
+- I was a gymnast, before. Rings, beam, all of it. Turns out nobody pays you to do a backflip on a beam. Put a pole in it and suddenly everyone's got coin.
+- Pip's dad was a juggler. Charming, terrible, gone. Ran off with my savings and his best set of clubs. I kept the kid and the bitterness. Good trade.
+- I'm saving for a house outside town. Little yard, a swing for Pip, a lock on the door and nobody named Gorm within a mile.
+- When I'm done here I'll open my own studio. Pole fitness. Strong arms, strong core, strong women. Mocha's already said she'll teach the slow class.
+- People think I'm proud. I am. I raised a kid, buried a dad, paid a debt and got top billing. I'm allowed to be proud.
+- Pip draws pictures of me at work. In her pictures I'm a princess with a sword. I've never corrected her. I'm not sure she's wrong.
+- My mum sold bread by the fountain. She'd die of shame if she saw me now. Then she'd count my tips and change her mind.
+- Even when the acolytes dragged the whole town into that crystal, I still made rent. I danced for the other prisoners for food. The headliner doesn't take nights off.
+- The big lad at the door's been my friend since my first shift. He walked me home every night for a year. He still checks on Pip. Don't tell him I told you, he'll go red.
+- I've had customers propose, cry, faint and once try to fight a chair. None of them were as much trouble as one juggler.
+- I do my books every Sunday. Rent, babysitter, Pip's shoes, the house fund. The house fund's getting fat. The heels fund is getting thin.
+- I don't drink on shift. Never have. Someone's got to be sober enough to count, and someone's got to get home to Pip.
+- Some nights are rough. Then I get home and there's a five-year-old asleep in my bed holding a drawing. That's the tip that matters.
+bark:
+- Watch this, you've never seen a spin like it!
+- Up we go!
+- Eyes on the headliner, darlings.
+- The orange room's open for business!
+- Somebody count to ten. I'll still be upside down.
+- If you're not in awe, you're not paying attention.
+- Ten years and I still nail that drop. Clap!
+- Higher! The pole goes higher!
+- Big lad! Is anyone tipping out there?
+- Flying's easy. Landing's the trick.
+- Hold your breath, sugar. I'll tell you when to let go.
+- This one's for Pip's new shoes!
+- Look up, Emberville!
+- Warm room, warm hearts, cold coins. Hand them over.
+gossip:
+- The bouncer's real name is something soft. Like a flower. I'll never tell. Pay me and I still won't.
+- $GIRL tried the top of my pole once. She made it halfway and screamed for the bouncer. Cute.
+- Gumu still comes in sometimes. Sits at the back, watches one song, leaves a coin on the step. I think it's his way of saying sorry about my dad. I keep the coin.
+- Mocha's twins are the only kids in town worse behaved than Pip. We do playdates. The town barely survives them.
+- Violet studies between sets with her potion books open on the dressing table. Last week she brewed something in a teacup and it ate the teacup.
+- The barkeep was in love with me for a year. Then he found out how much I charge. Now he's just in love with the money.
+- A juggler came in last month. I nearly threw a stool. It wasn't him. I still nearly threw a stool.
+- $GIRL asked me to teach her my spin. I said sure, the first lesson's on falling. She didn't come back for the second.
+- They say Ruton Iron-Arm can't take his shield off, not even to sleep. I offered him a private dance. He said he'd only knock the lamps over. Sweet man.
+- Mocha babysits Pip on my double shifts and I babysit the twins on hers. Between us we've raised three kids in a strip club. They're the most polite children in Emberville.
+bye:
+- Off you go, sugar. The orange lights will miss you.
+- Come back soon. The headliner doesn't wait, but she might wait for you.
+- Mind the curtain on your way out. And the big lad. Mostly the big lad.
+- Go on, $PLAYER. I've got one more set and a little girl to get home to.
+- Goodnight, darling. Look up sometime, I might be there.
+- Leave the coins, take the memories. That's the deal.
+- Bye, hero. Don't fall. If you do, fall gracefully.
+- I'll be up the pole if you need me. You'll need me.
+broke:
+- No coin? Then you came all the way back here for the view. I respect that. Don't do it again.
+- Empty pockets in the VIP room, sugar? The big lad's going to be so disappointed in you.
+- Broke? Go clear an acolyte outpost. They're always sitting on piles of coin.
+- I don't dance for free, darling. I've got a babysitter to pay.
+- Come back when you've robbed something, darling. Something big.
+- No tip? That's alright. Sit there and think about what you've done.
+- Hm. I hear your purse. I hear nothing at all.
+- Darling, the headliner doesn't take promises. Her landlord doesn't either.
+tip_small:
+- Ten? From a hero? Well. It's a start.
+- Thank you, sugar. That's one of Pip's crayons.
+- Into the jar it goes. The jar's called "House With A Yard".
+- A small tip for a big spin. I'll let it slide. This once.
+- Coin is coin. My mum used to say that. She sold bread, she'd know.
+- Aw. You looked like you meant it. That counts for a little.
+- That's a tip a juggler would give. And I would know.
+- Thank you, darling. Don't spend the rest on spiders.
+tip_big:
+- Now that's how you treat a headliner! Somebody tell the big lad I'm in love.
+- Fifty! Sugar, you just bought a plank for my house. A whole plank.
+- Oh, you beautiful fool. Come back every night.
+- That's Pip's shoes, Pip's coat and a hot dinner. You win. You win everything.
+- You've done this before. Haven't you. You've definitely done this before.
+- I'll do the big drop just for you. Ten years and I've never missed it.
+- This is why I climb, sugar. For people like you. And for coin. Mostly coin. Partly you.
+- Somebody get this hero a drink. On the house. The house is me.
+private_yes:
+- The orange room's all yours, sugar. Sit on the sofa. Hands where I can see them.
+- Private, is it? Come on then. I'll show you why they call me the headliner.
+- Follow me, darling. The big lad's standing guard. Nobody will bother us. Nobody would dare.
+- Mm, I was hoping you'd ask. Sit. Breathe. Let the lights do the work.
+- Behind the curtain we go. What happens in the orange room stays in the orange room.
+- A private dance for the hero of Emberville. My pleasure. Your coin.
+- This way, sugar. Mind the sofa, it's lumpy. The dance isn't.
+- Sit. Relax. You've fought monsters all day. Now something beautiful is going to happen to you for once.
+rain:
+- Oh, it's raining in the orange room! Keep it coming, sugar!
+- Coins from the heavens! Pip, Mummy's getting you a pony!
+- Now THIS is a show!
+- Yes! Shower the headliner! She's earned it!
+- I'm catching them upside down, watch!
+- Make it rain, darling, I've got a house to build!
+- Ha! Big lad, look! Look at the floor! It's all gold!
+- That's a whole month of babysitting falling out of the sky!
+pour:
+- It's pouring! Two hundred! That's the yard! That's the swing! That's the LOCK!
+- Oh, sugar, you're unbelievable. I'm naming a room in my studio after you.
+- That's the biggest storm Emberville's ever seen! I love you! I love this town!
+- I'm crying. The headliner is crying. Nobody look. Everybody look, actually, I'm gorgeous when I cry.
+- That's it. You're my favourite. And I've got a five-year-old, so that's saying something.
+- The bouncer's going to have to carry me home. And the coins.
+- Pouring in the orange room! Somebody bring buckets! Somebody bring a carriage!
+- I'm retiring! I'm buying the house! I'm coming back Tuesday, but I'm buying the house!
+
+# Violet: on the floor pole. Working her way through potion school. Came down from the Faier highlands
+# for her studies; her family think she's on a scholarship. Her purple hair is a dye potion that went
+# wrong in class. Wants her own apothecary shop. Sharp, poetic, vain, always exhausted before exams.
+[girl:Violet]
+greet:
+- Violet. Yes, it's purple. No, you can't touch it. Yes, it was an accident. No, you can't touch it.
+- Hello, stranger. Welcome to the purple. Don't stand in my light.
+- Ah. A hero. Do you happen to know the boiling point of spider venom? No? Then tip.
+- Evening. If you're here to look at me, look properly. Half-looking is rude.
+- I'm Violet. I dance on the floor pole, closest to you. Lucky you.
+- Oh, it's $PLAYER. Sit. Not there. There. The light hits me better from there.
+- Hi. Breathe. People forget to breathe when they first see the purple.
+- Shh. I'm memorising reagents between songs. Bloodroot, ember moss, cave lily... hello, sugar.
+- My, my. Another soul climbing out of the dark to look at something pretty. Here I am.
+- Hello, darling. I've got an exam at dawn and a set in five minutes. Make it worth my while.
+work:
+- I match my lights to my hair. The barkeep calls it vanity. I call it branding.
+- I dance on the floor pole because it's closest to the crowd. Up close, nobody can look at anything else.
+- Every coin on this stage goes to potion school. Every bruise goes on my thighs.
+- I study between sets. I've got a cauldron in the dressing room. The other girls call it my baby. It hisses at them.
+- The trick is to move slow, like you've got all night. I don't have all night. I've got a lab report.
+- Ruby flies. Mocha melts. I haunt. Every girl has her thing.
+- One customer tips me in reagents. Dried ember moss, cave lilies, once a whole jar of spider venom. Best regular I've got.
+- The lights go purple, I go slow, and the whole bar forgets what it was arguing about. That's power.
+- I don't smile on stage. Smiling's cheap. A look costs more, and I'm worth more.
+- A mage tried to change my hair colour with a spell. I changed his face. With my hand.
+- I dance with a vial of healing tonic in my garter. Brewed it myself. It's for my feet, not for you.
+- My best set is the slow one. The song nobody else will dance to. It's mine.
+- You'd be amazed how many professors come in here. I always know mine. He sits at the back and pretends he doesn't know me. I pretend he tips well.
+- Lab fees are due every month. So is rent. So is the cauldron repair. The pole's never late.
+life:
+- I'm working my way through potion school. Third year. Two more and I'm a licensed apothecary. Until then, the floor pole pays the fees.
+- I came down from the Faier highlands to study. My parents think I'm on a scholarship. I am, in a way. It's called tips.
+- The purple? Second-year dye potion. I was meant to make a red. I made this. It won't wash out. I've made it a lifestyle.
+- My mother writes every month asking about my grades. I send her my marks and a bit of coin. She thinks the school pays its students. I let her.
+- Do you know what a decent cauldron costs? Copper-lined, with a proper lid? More than a month of rent. I danced six nights straight for mine. I named it after my first big tipper.
+- I want my own shop one day. Little apothecary on the square. Tonics, salves, hangover cures. Lots of hangover cures. I know my market.
+- I tried waitressing first. Twelve hours, bad tips, a man pinched me every single day. Here the pinching costs extra and the bouncer breaks fingers. Better job.
+- Atwor lets me help in his clinic on my days off. Bandages, tonics, holding people down while he stitches. Real experience. The pole pays for the rest.
+- My study group doesn't know I dance. I sit with them at the library, sleepy and covered in glitter, and they think I go to a lot of parties.
+- Last term I failed a practical because I fell asleep over the cauldron. It was after a double shift. The potion exploded. I got a C for effort.
+- Some nights I come straight from the lab. I still smell of sulphur under the perfume. Nobody's complained. Some of them seem to like it.
+- Madame at the library lets me study there after closing, if I bring her tea. Brewing tea is the one thing I've never got wrong.
+- I've got exams in two weeks. I'm going to be dancing, sleeping and memorising tonic recipes. Mostly memorising. A little crying.
+- When I'm a real apothecary, I'm going to give the girls here free potions. Blister salve, back rub, something for Trixie's jaw. They've earned it.
+- Up in the highlands I danced at festivals for fun. Down here it's for fees. Same feet, different reasons.
+- People think I'm stuck up. I'm just tired. Five hours of class and four hours of pole would make anyone look down their nose.
+bark:
+- More purple! Who's on the lights? More purple!
+- Slow down, darling. Watch properly.
+- The floor pole's mine. Front row's yours. Isn't that nice.
+- Ember moss, cave lily, bloodroot... sorry, studying.
+- Don't blink, you'll miss it. You'll miss me.
+- Who turned the lights pink? I said purple.
+- Look at me like I'm the last thing you'll ever see.
+- Breathe, hero.
+- This one's for the lab fees!
+- Mm. This song. Finally, a song with some patience.
+- Quiet at the back. I'm haunting.
+- The purple's watching you.
+- Highland girl, potion-school prices.
+- Somebody hold my textbook, I'm going down.
+gossip:
+- Ruby thinks the orange room is classier. It's just warmer. Warm isn't class. Purple is class.
+- Mocha's cookies are the only thing that got me through last year's exams. That and spite.
+- $GIRL tried to dye her hair purple. It went green. Welcome to my world, darling.
+- Candy keeps telling people she's the smart one. She does enchanting. Enchanting is just potions for people who can't measure.
+- My professor sat at the bar last night. He tipped me ten coins and gave me a B. I'm not sure which one was the insult.
+- The barkeep says the floor pole's the cheap seat. Then he moves his stool closer every night.
+- $GIRL thinks I'm stuck up. I'm not stuck up. I'm elevated. And exhausted.
+- Trixie offered me Glimmerdust for exam week. I said no. Then I said it again, more slowly. Then I studied very fast.
+- Madame at the library has a book of rare reagent recipes. I'm trying to borrow it. She says I need to learn to pronounce her name first. I'm getting closer.
+- Gumu tried to sell me a cauldron. It had a hole in it. He said it was for "ventilation".
+bye:
+- Go on, hero. Take a little purple with you.
+- Off you go. Don't look back. Actually, do look back. Once.
+- Goodnight, $PLAYER. I've got three chapters to read before dawn.
+- Leave the coins on the stage. Leave the staring for next time.
+- Bye. Bring me a cave lily if you see one. They're expensive.
+- Run along. The purple will be here. So will my homework.
+- Farewell, darling. You were a decent audience. That's high praise.
+- I'll haunt you in your dreams. Purple dreams.
+broke:
+- No coin? Then admire me quietly, and from further away.
+- Broke? Darling, I'm a student. I invented broke.
+- Empty-handed at the floor pole. That's a poem. A sad one.
+- Go and fight something, then come back and be generous.
+- I don't take praise as payment. The school doesn't accept it either. I've asked.
+- No tip? Then no look. I'm turning away. Watch my back, it's still worth it.
+- You're as poor as a first-year. I remember first year. I don't recommend it.
+- Come back with coin, hero. The purple doesn't run on compliments.
+tip_small:
+- Thank you. A small thing, but you did it with your whole heart. I could tell.
+- Ten. That's one jar of ember moss. Thank you, darling.
+- That buys me a new quill. I'll write my exam with it. You'll be in my thoughts. Briefly.
+- Hm. Fine. Accepted. Graciously.
+- In the highlands that would buy a whole goat. Here it buys a smile. Here.
+- Thank you, darling. I'll write you half a line of poetry.
+- Small coins, sincere eyes. I'll take both.
+- Kind of you. That's a page of the textbook paid for.
+tip_big:
+- Fifty. Oh. You've made the purple glow.
+- That's a whole lab fee. You've just kept me in school, hero.
+- You beautiful creature. I'll dance the slow one just for you.
+- That's a month of reagents. You've funded my homework.
+- Mm. You do know how to treat a highland girl.
+- Fifty coins. I'm writing you a whole poem. It's going to be about how rich you are.
+- When I open my shop, you get free hangover cures for life.
+- Thank you. Truly. Sit closer. I'll allow it.
+rain:
+- It's raining on the floor pole! Purple rain!
+- Coins in the light! Look how they shine on me!
+- That's next term! That's falling out of the sky!
+- Oh, darling, that's my tuition coming down!
+- Keep it coming! I'm dancing in a storm of gold!
+- Somebody tell the registrar I'm paying in full!
+- Gold and purple. My colours. You understand me.
+- Oh, I'm gleaming! Everyone look, I'm gleaming!
+pour:
+- It's pouring! You've flooded the floor pole! I adore you!
+- Two hundred! I can buy a copper cauldron! I can buy TWO!
+- That's a whole year of school! I'm crying! It's not the dye, it's real tears!
+- Darling, that's my apothecary shop! You've just bought the front door!
+- Everyone stop! Nobody move! Someone's spent a fortune on the purple!
+- I'm going to pass my exams out of pure gratitude.
+- That's it, I'm naming a potion after you. It's going to be very strong.
+- My mother's going to think the scholarship's doubled. I love you.
+
+# Mocha: on the main stage. Single mum of twins, Pebble and Bean. Wortai, with a name nobody can say.
+# Waitressed for years, switched to dancing because the tips are better. Helps care for her mum, bakes
+# every Sunday, saving for a bakery. The twins' dad went "adventuring" and never came back.
+[girl:Mocha]
+greet:
+- Hey, I'm Mocha. Smooth, dark, and keeps you up at night.
+- Hi, sugar. Mocha's not my real name. My real name's Wortai. You'd hurt your mouth.
+- Well hello, hero. You look hungry. I can fix that. After the show.
+- Evening, $PLAYER. Pull up a stool. The stage is warm and so am I.
+- Oh, look who it is. Back from the tunnels again. Did you eat today? You didn't, did you.
+- Hey there, sweetheart. Welcome to the main stage. The best seat's right where you're standing.
+- Mocha. Like the drink. Rich, a little bitter, worth every coin.
+- Hi, baby. Don't mind the flour on my hands. I came straight from the oven to the pole.
+- Hey, you. Come here. You've got cave dust on your face. Hold still. There. Gorgeous.
+- Hello, darling. You've got the look of a man who needs a cookie and a dance. In that order.
+work:
+- I've got a regular who brings me flowers. Weeds, actually. But it's the thought.
+- Main stage is mine. Ruby's got the orange room, Violet's got the floor pole, and I've got everybody else.
+- I dance like I bake. Slow heat, lots of patience, and you don't open the oven early.
+- Gumu tried to pay me for a dance with a cookie recipe. It was my recipe. He stole it off my stall.
+- The secret to the main stage is you dance for the back row. The front row's already yours.
+- I waitressed for eight years. Same smile, same feet, a tenth of the tips. I should have switched sooner.
+- I bring cookies for the girls every shift. The barkeep says it's bad for business. Everybody stays longer when there's cookies. That's good for business.
+- I warm up with a stretch my mum taught me. Wortai old women are bendier than anyone in this room.
+- When the lights go low, I go lower. That's the whole trick, sugar.
+- Twins means two of everything. Two pairs of shoes, two colds, two birthdays on the same day. So I do two sets.
+- I keep my own playlist in my head. The barkeep's one song is not my song. In my head it's drums, Wortai drums.
+- People come in from the crystal shaking. I dance soft for them first. Then they're ready for the good stuff.
+- My best tipper is a beastman. Huge, shaggy, gentle. He tips in honey. I bake it into everything.
+- You'd think the main stage would be the hardest. Nope. The hardest part is the stairs in these heels after a day chasing twins.
+life:
+- I bake on Sundays. Nobody in here believes me. I bring the cookies. They believe me.
+- I've got twins at home. Pebble and Bean. Six years old, too clever, always sticky. Everything I make up this pole goes into those two.
+- Their dad went off "adventuring" when they were babies. Said he'd come back rich. That was six years ago. I hope a spider's very happy somewhere.
+- I waitressed at the inn for eight years. Ten coins a night if I was lucky. One night a girl from here sat in my section and tipped me twenty. I asked her how. She told me. I started on the Monday.
+- My real name's Wortai. It's got four sounds that aren't letters. My kids can say it. The barkeep tried once and pulled something.
+- I look after my mum too. Her hips are bad and her temper's worse. Between her and the twins, this is the quietest place I go all day.
+- I've got a little Wortai trick. If you hum while you bake, the bread rises better. If you hum while you dance, the tips do.
+- One day I'll open a bakery right next to the club. Cookies on the left, dancing on the right. Everybody leaves happy and full.
+- My mum thinks I work nights cleaning the inn. She asked why I come home with glitter. I said the inn's very fancy now.
+- I'm not ashamed of this job. It feeds three kids. Well, two kids and Ruby's Pip on Tuesdays.
+- Ruby and I swap babysitting. Her double shifts, I've got Pip. My double shifts, she's got the twins. Three kids raised by two strippers and a very nervous bouncer.
+- I stopped waitressing the week Pebble got a fever and I couldn't pay Atwor. First night on the pole, I paid him twice over. Never looked back.
+- I bake for the whole street on Sundays. Free. Somebody did it for me when the twins were small. You pass it on.
+- When the acolytes took the town into the crystal, I had both babies strapped to me. I danced for the other prisoners to get them food. It's how I learned I was good at this.
+- My mum used to dance at Wortai weddings. Drums and dust and everyone barefoot. I dance like her. She'd be scandalised by the heels.
+- Someday the twins will ask what I did. I'll tell them the truth. I'll tell them I was the best on the main stage and I bought them every pair of shoes they ever outgrew.
+bark:
+- Somebody tell the DJ there's more than one song!
+- Slow and sweet, sugar. Just like my cookies.
+- Main stage, baby! Eyes front!
+- Who's hungry? After the set! After the set!
+- Back row, I see you! I'm dancing for you!
+- Mm, that's the beat. Feel it?
+- This set's for two pairs of school shoes!
+- Don't rush me, darling, good things take time.
+- Look at all these hungry faces.
+- Wortai drums in my head and coins on my stage. Perfect night.
+- Somebody tip the beastman, he's been crying since the second song.
+- Low lights, low moves. Here we go.
+- Smell that? That's cookies backstage. Behave and you'll get one.
+- Twins at home, twins on my mind, coins on my stage!
+gossip:
+- Gumu's not as old as he acts. That cane's for show. I've seen him run when the bill comes.
+- Ruby acts tough but she cries at Pip's drawings. Every single one. She's got a box of them backstage.
+- Violet fell asleep on my shoulder in the dressing room last week with a textbook on her face. I let her sleep through her set. Don't tell the barkeep.
+- The barkeep eats my cookies and says they're too sweet. Then he eats six more.
+- $GIRL asked me to teach her to bake. She set the oven on fire. Then herself. She's fine now. She came back.
+- My twins told their teacher I'm a "professional climber". The teacher came in last week. Now she knows. She tipped.
+- Madame at the library is sweet on Adeos. He keeps forgetting. She keeps reminding him. Every week. It's the most romantic thing I've ever seen.
+- Tinetia came for cookies one Sunday. Didn't say a word. Left a bone carving of a loaf on my step. I've got it on my shelf.
+- $GIRL owes me a tray. And an apology. And the tray.
+- Nagedra fixed my oven and refused payment. Said my bread fixed her mood. I like that woman.
+bye:
+- Bye, sugar. Eat something. I mean it.
+- Off you go. Come by on Sunday, I'll have bread.
+- Mind the stairs. And the spiders. And yourself.
+- Take care, $PLAYER. You're too skinny for all that sword-swinging.
+- Go on, baby. I've got one more set, then two kids to tuck in.
+- See you soon, hero. The main stage will keep.
+- Bye bye. Hum while you walk, it helps.
+- Take a cookie on your way out. One. I'm counting. I've got twins, I always count.
+broke:
+- No coin? That's alright, baby. Come Sunday, the bread's free.
+- Broke? Gumu will buy your junk. He bought my old apron once. Don't ask what for.
+- Sugar, you can't tip with good intentions. I've tried. The landlord won't take them either.
+- Empty pockets and an empty stomach. You need a hug and a job. I can only offer one, and it's not the job.
+- No coin? I've got two six-year-olds who tip better than you. In pebbles. But still.
+- Aw, honey. Watch the show. You can pay me back with stories later.
+- Broke heroes are still heroes. Broke customers, though. Hmm.
+- Come back when you've got coin, darling. I'll still be here. I'm always here.
+tip_small:
+- Thank you, sugar. That's flour for Sunday.
+- Aw, look at you. Ten coins of sweetness.
+- That's a new hair ribbon for Bean. She'll love you and never know why.
+- Small but warm. Like a fresh roll.
+- Mm, I'll take it. My mum always said take what's offered and say thank you. Thank you.
+- That'll buy honey from my beastman. You've made him happy too.
+- You're a sweetheart. Not a big sweetheart. But a sweetheart.
+- Thank you, baby. Now go eat something.
+tip_big:
+- Fifty?! Sugar, I'm baking you a whole cake.
+- Oh, baby. That's both twins in new boots.
+- You beautiful soul. Sit there, I'm dancing the next one just for you.
+- That's more than a month of waitressing. In one go. I made the right choice.
+- That's Mum's medicine and the twins' dinner. Thank you. Really.
+- You just funded the bakery, hero. One brick at a time.
+- Oh my. Somebody's been looting the tunnels. Good. Spread it around.
+- I'm going to name a cookie after you. It's going to be very rich.
+rain:
+- It's raining on the main stage, baby!
+- Coins! Like flour from the sack! Keep it falling!
+- Now that's weather I like!
+- Oh, sugar, the back row's going to love this!
+- Make it rain! I'll make it bread!
+- Look at it come down! Pebble, Bean, Mummy's buying you a pony!
+- Gold on the boards! Keep it going!
+- Ooh, I'm going to be sweeping up for an hour, and I don't even care!
+pour:
+- It's pouring! I can open the bakery! Tomorrow! Tonight!
+- Two hundred coins! Cookies for everyone in Emberville for a year!
+- Oh, baby, I'm crying flour. I'm crying actual flour.
+- That's a storm, sugar! That's a real Wortai storm!
+- Somebody fetch a sack! A big sack! A flour sack!
+- I'm naming the bakery after you. Well, after me. But there'll be a plaque.
+- That's school for the twins! A whole year! I love you!
+- Best night on the main stage ever. Everyone, this hero is my new favourite!

@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>EmbervilleAfterDark</AssemblyName>
+    <RootNamespace>GentlemansClub</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <DebugType>embedded</DebugType>
+    <GamePath>D:\Steam\steamapps\common\Emberville Demo</GamePath>
+    <ManagedPath>$(GamePath)\Emberville_Data\Managed</ManagedPath>
+    <PluginsPath>$(APPDATA)\com.kesomannen.gale\emberville\profiles\Default\BepInEx\plugins\OdinPlus-EmbervilleAfterDark</PluginsPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="docs\**;bundle\**;text\**;audio\**" />
+    <None Remove="docs\**;bundle\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\Steam\steamapps\common\Emberville Demo\Emberville_Data\Managed\publicized_assemblies\Assembly-CSharp_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx"><HintPath>$(GamePath)\BepInEx\core\BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GamePath)\BepInEx\core\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(ManagedPath)\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(ManagedPath)\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>$(ManagedPath)\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AssetBundleModule"><HintPath>$(ManagedPath)\UnityEngine.AssetBundleModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.Physics2DModule"><HintPath>$(ManagedPath)\UnityEngine.Physics2DModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.InputSystem"><HintPath>$(ManagedPath)\Unity.InputSystem.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime"><HintPath>$(ManagedPath)\Unity.RenderPipelines.Universal.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime"><HintPath>$(ManagedPath)\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>$(ManagedPath)\Unity.TextMeshPro.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(ManagedPath)\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UIModule"><HintPath>$(ManagedPath)\UnityEngine.UIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Localization"><HintPath>$(ManagedPath)\Unity.Localization.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(ManagedPath)\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Addressables"><HintPath>$(ManagedPath)\Unity.Addressables.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.ResourceManager"><HintPath>$(ManagedPath)\Unity.ResourceManager.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime"><HintPath>$(ManagedPath)\Unity.RenderPipelines.Core.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ImageConversionModule"><HintPath>$(ManagedPath)\UnityEngine.ImageConversionModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="R3"><HintPath>$(ManagedPath)\R3.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AK.Wwise.Unity.API"><HintPath>$(ManagedPath)\AK.Wwise.Unity.API.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+
+  <Target Name="DeployToGame" AfterTargets="Build">
+    <MakeDir Directories="$(PluginsPath)" />
+    <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll;bundle\gentlemansclub" DestinationFolder="$(PluginsPath)" />
+    <Copy SourceFiles="package\manifest.json;package\README.md;package\CHANGELOG.md" DestinationFolder="$(PluginsPath)" />
+    <!-- Never replace an icon already in the mod folder: that one is the user's. -->
+    <Copy SourceFiles="package\icon.png" DestinationFolder="$(PluginsPath)" Condition="!Exists('$(PluginsPath)\icon.png')" />
+    <Copy SourceFiles="audio\club_music.mp3" DestinationFolder="$(PluginsPath)\audio" />
+    <Copy SourceFiles="text\club_lines.txt" DestinationFolder="$(PluginsPath)\text" />
+  </Target>
+
+</Project>
